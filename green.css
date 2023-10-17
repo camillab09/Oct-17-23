@@ -1,0 +1,18 @@
+* {
+  background-color: green;
+  text-align: center;
+}
+a:link {
+  color: black;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.circle::before {
+  content: "This is a circle";
+  font-size: 20px;
+}

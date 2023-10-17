@@ -1,0 +1,12 @@
+* {
+  background-color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+li::marker {
+  color: red;
+  font-size: 50px;
+}
+a:link {
+  color: black;
+}

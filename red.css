@@ -1,0 +1,11 @@
+body {
+  background-color: red;
+  text-align: center;
+}
+p::selection {
+  background-color: yellow;
+  color: blue;
+}
+a:link {
+  color: black;
+}
