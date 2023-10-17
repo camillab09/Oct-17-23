@@ -1,0 +1,153 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 200px 1fr;
+}
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 0px;
+  position: relative;
+  border-radius: 50%;
+  grid-area: 1 / 1 / 2 / 2;
+  animation: red 5s infinite linear;
+}
+@keyframes red {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: red;
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: red;
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  border: 0px;
+  position: relative;
+  border-radius: 50%;
+  grid-area: 1 / 1 / 2 / 2;
+  animation: blue 5s infinite linear;
+}
+@keyframes blue {
+  0% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  25% {
+    background-color: blue;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+}
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border: 0px;
+  border-radius: 50%;
+  position: relative;
+  grid-area: 1 / 1 / 2 / 2;
+  animation: green 5s infinite linear;
+}
+@keyframes green {
+  0% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  25% {
+    background-color: green;
+    left: 200px;
+    top: 200px;
+  }
+  50% {
+    background-color: green;
+    left: 200px;
+    top: 0px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border: 0px;
+  border-radius: 50%;
+  position: relative;
+  grid-area: 1 / 1 / 2 / 2;
+  animation: yellow 5s infinite linear;
+}
+@keyframes yellow {
+  0% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: yellow;
+    left: 0px;
+    top: 200px;
+  }
+  75% {
+    background-color: yellow;
+    left: 200px;
+    top: 200px;
+  }
+  100% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+}
