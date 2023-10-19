@@ -2,17 +2,12 @@
   background-color: green;
   text-align: center;
 }
+h2::before {
+  content: "😊";
+}
+h2::after {
+  content: "😁";
+}
 a:link {
   color: black;
-}
-.circle {
-  width: 200px;
-  height: 200px;
-  border: 0px;
-  border-radius: 50%;
-  background-color: grey;
-}
-.circle::before {
-  content: "This is a circle";
-  font-size: 20px;
 }
